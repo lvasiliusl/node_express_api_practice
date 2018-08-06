@@ -7,8 +7,6 @@ const mysqlConnection = mysql.createConnection({
     database: 'test_node_js'
 });
 
-// mysqlConnection.connect();
-
 exports.get = () => {
     return mysqlConnection;
 }
