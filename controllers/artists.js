@@ -1,4 +1,4 @@
-const Artists = require('../model/artists');
+const Artists = require('../models/artists');
 
 exports.all = (req, res) => {
     Artists.all((error, results, fields) => {
